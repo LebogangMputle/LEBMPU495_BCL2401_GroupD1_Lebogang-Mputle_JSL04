@@ -12,7 +12,8 @@ console.log(``);
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-console.log(``);
+let messagePosted = cansLeft < 5 ? "Time to restock!" : "We're stocked!";
+console.log(messagePosted);
 
 
 // #### Challenge 3: Workout Intensity
@@ -20,7 +21,8 @@ console.log(``);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-console.log(`'}`);
+let message = heartRate < 100 ? "Boost needed!" : "Energy levels are high!";
+console.log(message);
 
 
 // #### Challenge 4: Temperature Suitability

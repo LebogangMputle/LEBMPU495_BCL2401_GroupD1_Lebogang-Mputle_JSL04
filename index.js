@@ -44,7 +44,7 @@ console.log(outPutMessage);
 
 
 // #### Challenge 5: Late Night Coding Session
-// Determine if it's a good idea to have a Monster Energy drink based on the current hour.
+
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!",
 // otherwise, print "Better stick to water."
 
@@ -55,6 +55,12 @@ let currentHour = 22;
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
 
+// Determine if it's a good idea to have a Monster Energy drink based on the current hour
+if (currentHour >= 7 && currentHour <= 23) {
+  console.log("Unleash the beast!"); // Print "Unleash the beast!" if it's between 7am and midnight
+  } else {
+  console.log("Better stick to water."); // Print "Better stick to water." if it's outside the specified time range
+  }
 
 
 
